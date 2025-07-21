@@ -6,4 +6,6 @@ load_dotenv()
 class Settings(BaseSettings):
     BOT_TOKEN: str
 
-settings = Settings()
+    class Config:
+        env_file = '.env'
+        env_file_encoding = 'utf-8'
