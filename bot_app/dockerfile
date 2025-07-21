@@ -6,5 +6,5 @@ COPY . .
 
 RUN pip install requirements.txt
 
-CMD ["python", "main"]
+CMD ["python", "main.py"]
 
