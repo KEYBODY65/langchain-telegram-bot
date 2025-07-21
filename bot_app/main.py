@@ -12,7 +12,7 @@ token = settings.BOT_TOKEN
 
 async def start_bot(token: token):
     logging.basicConfig(level=logging.INFO,
-                        format='%(asctime)s - [%(levelname)s] - '  # логирование нужно для отображения результата работы хендлера: is handled / is not handled
+                        format='%(asctime)s - [%(levelname)s] - '
                                '%(name)s - (%(filename)s).%(funcName)s(%(lineno)d) - %(message)s')
 
     bot = Bot(token=token)

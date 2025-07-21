@@ -1,1 +1,5 @@
 .env
+
+/config/__pycache__/
+
+/bot_utils/__pycache__/
